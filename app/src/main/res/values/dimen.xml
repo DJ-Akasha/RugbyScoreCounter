@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margins">24dp</dimen>
+    <dimen name="top_margin_buttons">8dp</dimen>
+    <dimen name="top_button_top_margin">64dp</dimen>
+    <dimen name="margin_right_left">24dp</dimen>
+    <dimen name="reset_margin_bottom">16dp</dimen>
+</resources>
