@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Dimens used for portrait mode. -->
     <dimen name="top_margins">24dp</dimen>
     <dimen name="top_margin_buttons">8dp</dimen>
     <dimen name="top_button_top_margin">64dp</dimen>
     <dimen name="margin_right_left">24dp</dimen>
     <dimen name="reset_margin_bottom">16dp</dimen>
     <dimen name="top_padding">16dp</dimen>
+    <!-- Dimens used for landscape mode. -->
+    <dimen name="top_margins_land">12dp</dimen>
+    <dimen name="top_padding_land">8dp</dimen>
+    <dimen name="top_button_top_margin_land">24dp</dimen>
 </resources>

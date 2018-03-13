@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorButtonNormal">#000000</item>
     </style>
-
+    <!-- Style for the Team text at the top of the app. -->
     <style name="TopText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -17,7 +17,7 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
-
+    <!-- Style for the score numbers. -->
     <style name="Score">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -26,7 +26,7 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
-
+    <!-- Style for the TRY buttons PORTRAIT. -->
     <style name="TopButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -37,7 +37,18 @@
         <item name="android:backgroundTint">#009688</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
-
+    <!-- Style for the TRY buttons LANDSCAPE. -->
+    <style name="TopButtonLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/top_button_top_margin_land</item>
+        <item name="android:layout_marginLeft">@dimen/margin_right_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_left</item>
+        <item name="android:backgroundTint">#009688</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- Style for the GOAL KICK / PENALTY and DROP GOAL buttons. -->
     <style name="MiddleBottomButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -48,7 +59,7 @@
         <item name="android:backgroundTint">#009688</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
-
+    <!-- Style for the RESET button. -->
     <style name="ResetButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

@@ -6,4 +6,6 @@
     <string name="goalKick">Goal Kick / Penalty</string>
     <string name="dropGoal">Drop Goal</string>
     <string name="reset">Reset</string>
+    <string name="description">An image of a rugby pitch with the sun overhead</string>
+    <string name="score">0</string>
 </resources>

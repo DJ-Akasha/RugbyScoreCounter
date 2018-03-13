@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/field" />
+
+    <ScrollView
+        android:id="@+id/scrollThing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TopText"
+                    android:layout_margin="@dimen/top_margins_land"
+                    android:background="@drawable/shape"
+                    android:padding="@dimen/top_padding_land"
+                    android:text="@string/teamA" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/Score"
+                    android:layout_margin="@dimen/top_margins_land"
+                    android:background="@drawable/shape"
+                    android:padding="@dimen/top_padding_land"
+                    android:text="@string/score" />
+
+                <Button
+                    style="@style/TopButtonLand"
+                    android:onClick="add4ForTeamA"
+                    android:text="@string/tryPoints" />
+
+                <Button
+                    style="@style/MiddleBottomButton"
+                    android:onClick="add2ForTeamA"
+                    android:text="@string/goalKick" />
+
+                <Button
+                    style="@style/MiddleBottomButton"
+                    android:onClick="add1ForTeamA"
+                    android:text="@string/dropGoal" />
+
+            </LinearLayout>
+
+            <Button
+                style="@style/ResetButton"
+                android:onClick="resetToZero"
+                android:text="@string/reset" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TopText"
+                    android:layout_margin="@dimen/top_margins_land"
+                    android:background="@drawable/shape"
+                    android:padding="@dimen/top_padding_land"
+                    android:text="@string/teamB" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/Score"
+                    android:layout_margin="@dimen/top_margins_land"
+                    android:background="@drawable/shape"
+                    android:padding="@dimen/top_padding_land"
+                    android:text="@string/score" />
+
+                <Button
+                    style="@style/TopButtonLand"
+                    android:onClick="add4ForTeamB"
+                    android:text="@string/tryPoints" />
+
+                <Button
+                    style="@style/MiddleBottomButton"
+                    android:onClick="add2ForTeamB"
+                    android:text="@string/goalKick" />
+
+                <Button
+                    style="@style/MiddleBottomButton"
+                    android:onClick="add1ForTeamB"
+                    android:text="@string/dropGoal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
